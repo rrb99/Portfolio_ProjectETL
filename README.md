@@ -7,7 +7,7 @@ Installation
 2.Run Normalize.py and then run all in Week_15.ipynb jupyter notebook. 
   (this will create a new csv file called ETL_assignment.csv in the folder).
 3.Open pgAdmin4.
-4.Copy all from ETLAssignment.sql into a new query and run all.
+4.Copy all from ETLAssignment.sql into a new query and create the database and create the table.
   (this will creat a new database called etlassignment and a new table called Air_Quality2)
 5 Right click Air_Quality2 table in the etlassignment database and import the ETL_assignment csv file.
 6.Run the queries to test.
