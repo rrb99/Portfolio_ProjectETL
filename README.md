@@ -10,7 +10,7 @@ Installation
 4.Copy all from ETLAssignment.sql into a new query and create the database.
   (Make sure the database has connection etlassignment)
 5.Create the table.
-  (This will create a new table called Air_Quality2)
+  (This will create a new table called Air_quality)
 7.Right click Air_Quality2 table in the etlassignment database and import the ETL_assignment csv file.
 8.Run the queries to test.
 
