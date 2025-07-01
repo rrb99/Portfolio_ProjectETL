@@ -1,7 +1,7 @@
 CREATE DATABASE ETLAssignment;
 
 
-CREATE TABLE Air_quality2
+CREATE TABLE Air_quality
 (
 id INT PRIMARY KEY,
 location VARCHAR,
@@ -12,11 +12,11 @@ Pollutants VARCHAR
 );
 
 
-SELECT * FROM Air_Quality2
+SELECT * FROM Air_Quality
 
-SELECT * FROM Air_Quality2 WHERE locationclass = 'Urban Traffic'
+SELECT * FROM Air_Quality WHERE locationclass = 'Urban Traffic'
 
 SELECT * 
-FROM  Air_Quality2
+FROM  Air_Quality
 ORDER BY norm_lat DESC;
 
